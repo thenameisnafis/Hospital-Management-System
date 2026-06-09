@@ -1,0 +1,408 @@
+﻿namespace Hospital
+{
+    partial class Patient
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Patient_name = new Label();
+            Make_appoint = new Button();
+            view_appoint = new Button();
+            Add_Medical_History = new Button();
+            View_Medical_History = new Button();
+            DataGrid = new DataGridView();
+            Phone_label = new Label();
+            phone_number = new Label();
+            mail_label = new Label();
+            Patient_email = new Label();
+            label1 = new Label();
+            panel1 = new Panel();
+            pres_sum = new Label();
+            label6 = new Label();
+            app_sum = new Label();
+            label4 = new Label();
+            Admin_ID = new Label();
+            label3 = new Label();
+            pictureBox1 = new PictureBox();
+            listView1 = new ListView();
+            View_Prescriptions = new Button();
+            label2 = new Label();
+            ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // Patient_name
+            // 
+            Patient_name.AutoSize = true;
+            Patient_name.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            Patient_name.Location = new Point(635, 56);
+            Patient_name.Margin = new Padding(4, 0, 4, 0);
+            Patient_name.Name = "Patient_name";
+            Patient_name.Size = new Size(133, 40);
+            Patient_name.TabIndex = 1;
+            Patient_name.Text = "pname";
+            // 
+            // Make_appoint
+            // 
+            Make_appoint.BackColor = Color.GhostWhite;
+            Make_appoint.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Make_appoint.Location = new Point(34, 331);
+            Make_appoint.Margin = new Padding(4, 5, 4, 5);
+            Make_appoint.Name = "Make_appoint";
+            Make_appoint.Size = new Size(179, 95);
+            Make_appoint.TabIndex = 2;
+            Make_appoint.Text = "Make appointment";
+            Make_appoint.UseVisualStyleBackColor = false;
+            Make_appoint.Click += Make_appoint_Click;
+            // 
+            // view_appoint
+            // 
+            view_appoint.BackColor = Color.GhostWhite;
+            view_appoint.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            view_appoint.Location = new Point(250, 331);
+            view_appoint.Margin = new Padding(4, 5, 4, 5);
+            view_appoint.Name = "view_appoint";
+            view_appoint.Size = new Size(174, 95);
+            view_appoint.TabIndex = 3;
+            view_appoint.Text = "View appointments";
+            view_appoint.UseVisualStyleBackColor = false;
+            view_appoint.Click += view_appoint_Click;
+            // 
+            // Add_Medical_History
+            // 
+            Add_Medical_History.BackColor = Color.GhostWhite;
+            Add_Medical_History.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Add_Medical_History.Location = new Point(458, 331);
+            Add_Medical_History.Margin = new Padding(4, 5, 4, 5);
+            Add_Medical_History.Name = "Add_Medical_History";
+            Add_Medical_History.Size = new Size(181, 95);
+            Add_Medical_History.TabIndex = 4;
+            Add_Medical_History.Text = "Add Medical History";
+            Add_Medical_History.UseVisualStyleBackColor = false;
+            Add_Medical_History.Click += Add_Medical_History_Click;
+            // 
+            // View_Medical_History
+            // 
+            View_Medical_History.BackColor = Color.GhostWhite;
+            View_Medical_History.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            View_Medical_History.Location = new Point(674, 331);
+            View_Medical_History.Margin = new Padding(4, 5, 4, 5);
+            View_Medical_History.Name = "View_Medical_History";
+            View_Medical_History.Size = new Size(198, 95);
+            View_Medical_History.TabIndex = 5;
+            View_Medical_History.Text = "View Medical History";
+            View_Medical_History.UseVisualStyleBackColor = false;
+            View_Medical_History.Click += View_Medical_History_Click;
+            // 
+            // DataGrid
+            // 
+            DataGrid.AllowUserToAddRows = false;
+            DataGrid.AllowUserToDeleteRows = false;
+            DataGrid.AllowUserToResizeColumns = false;
+            DataGrid.AllowUserToResizeRows = false;
+            DataGrid.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DataGrid.BackgroundColor = Color.Peru;
+            DataGrid.BorderStyle = BorderStyle.None;
+            DataGrid.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(20, 25, 70);
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = Color.WhiteSmoke;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            DataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            DataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.ForestGreen;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            DataGrid.DefaultCellStyle = dataGridViewCellStyle2;
+            DataGrid.EnableHeadersVisualStyles = false;
+            DataGrid.Location = new Point(15, 501);
+            DataGrid.Margin = new Padding(4, 5, 4, 5);
+            DataGrid.Name = "DataGrid";
+            DataGrid.RowHeadersVisible = false;
+            DataGrid.RowHeadersWidth = 51;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(238, 239, 249);
+            DataGrid.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            DataGrid.RowTemplate.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            DataGrid.Size = new Size(1109, 210);
+            DataGrid.TabIndex = 6;
+            DataGrid.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Phone_label
+            // 
+            Phone_label.AutoSize = true;
+            Phone_label.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Phone_label.Location = new Point(4, 149);
+            Phone_label.Margin = new Padding(4, 0, 4, 0);
+            Phone_label.Name = "Phone_label";
+            Phone_label.Size = new Size(243, 40);
+            Phone_label.TabIndex = 7;
+            Phone_label.Text = "Phone Number: ";
+            // 
+            // phone_number
+            // 
+            phone_number.AutoSize = true;
+            phone_number.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            phone_number.Location = new Point(242, 150);
+            phone_number.Margin = new Padding(4, 0, 4, 0);
+            phone_number.Name = "phone_number";
+            phone_number.Size = new Size(130, 38);
+            phone_number.TabIndex = 8;
+            phone_number.Text = "Pnumber";
+            // 
+            // mail_label
+            // 
+            mail_label.AutoSize = true;
+            mail_label.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            mail_label.Location = new Point(626, 149);
+            mail_label.Margin = new Padding(4, 0, 4, 0);
+            mail_label.Name = "mail_label";
+            mail_label.Size = new Size(108, 40);
+            mail_label.TabIndex = 9;
+            mail_label.Text = "email: ";
+            mail_label.Click += mail_label_Click;
+            // 
+            // Patient_email
+            // 
+            Patient_email.AutoSize = true;
+            Patient_email.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Patient_email.Location = new Point(730, 150);
+            Patient_email.Margin = new Padding(4, 0, 4, 0);
+            Patient_email.Name = "Patient_email";
+            Patient_email.Size = new Size(85, 38);
+            Patient_email.TabIndex = 10;
+            Patient_email.Text = "Pmail";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(400, 41);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(229, 60);
+            label1.TabIndex = 0;
+            label1.Text = "Welcome,";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.AliceBlue;
+            panel1.Controls.Add(pres_sum);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(app_sum);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(Admin_ID);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(Patient_email);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(mail_label);
+            panel1.Controls.Add(Patient_name);
+            panel1.Controls.Add(phone_number);
+            panel1.Controls.Add(Phone_label);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(-4, -4);
+            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1158, 236);
+            panel1.TabIndex = 11;
+            panel1.Paint += panel1_Paint;
+            // 
+            // pres_sum
+            // 
+            pres_sum.AutoSize = true;
+            pres_sum.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            pres_sum.Location = new Point(955, 189);
+            pres_sum.Margin = new Padding(4, 0, 4, 0);
+            pres_sum.Name = "pres_sum";
+            pres_sum.Size = new Size(72, 38);
+            pres_sum.TabIndex = 16;
+            pres_sum.Text = "total";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            label6.Location = new Point(626, 186);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(335, 40);
+            label6.TabIndex = 15;
+            label6.Text = "Total Prescriptions fees: ";
+            // 
+            // app_sum
+            // 
+            app_sum.AutoSize = true;
+            app_sum.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            app_sum.Location = new Point(351, 188);
+            app_sum.Margin = new Padding(4, 0, 4, 0);
+            app_sum.Name = "app_sum";
+            app_sum.Size = new Size(72, 38);
+            app_sum.TabIndex = 14;
+            app_sum.Text = "total";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(4, 188);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(346, 40);
+            label4.TabIndex = 13;
+            label4.Text = "Total appointments fees: ";
+            // 
+            // Admin_ID
+            // 
+            Admin_ID.AutoSize = true;
+            Admin_ID.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Admin_ID.Location = new Point(342, 109);
+            Admin_ID.Margin = new Padding(4, 0, 4, 0);
+            Admin_ID.Name = "Admin_ID";
+            Admin_ID.Size = new Size(83, 25);
+            Admin_ID.TabIndex = 12;
+            Admin_ID.Text = "AdminID";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(130, 104);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(211, 30);
+            label3.TabIndex = 11;
+            label3.Text = "Responsible admin: ";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Red_Simple_Medical_Health_Logo;
+            pictureBox1.Location = new Point(-58, -76);
+            pictureBox1.Margin = new Padding(4, 4, 4, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(432, 302);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 17;
+            pictureBox1.TabStop = false;
+            // 
+            // listView1
+            // 
+            listView1.BackColor = Color.Maroon;
+            listView1.Location = new Point(-4, 234);
+            listView1.Margin = new Padding(4, 5, 4, 5);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(1155, 239);
+            listView1.TabIndex = 12;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            // 
+            // View_Prescriptions
+            // 
+            View_Prescriptions.BackColor = Color.GhostWhite;
+            View_Prescriptions.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            View_Prescriptions.Location = new Point(918, 331);
+            View_Prescriptions.Margin = new Padding(4, 5, 4, 5);
+            View_Prescriptions.Name = "View_Prescriptions";
+            View_Prescriptions.Size = new Size(191, 95);
+            View_Prescriptions.TabIndex = 13;
+            View_Prescriptions.Text = "View Prescriptions";
+            View_Prescriptions.UseVisualStyleBackColor = false;
+            View_Prescriptions.Click += View_Prescriptions_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Maroon;
+            label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.AliceBlue;
+            label2.Location = new Point(322, 269);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(489, 40);
+            label2.TabIndex = 14;
+            label2.Text = "What would You Like to do Today?";
+            // 
+            // Patient
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.AliceBlue;
+            ClientSize = new Size(1142, 739);
+            Controls.Add(label2);
+            Controls.Add(View_Prescriptions);
+            Controls.Add(DataGrid);
+            Controls.Add(View_Medical_History);
+            Controls.Add(Add_Medical_History);
+            Controls.Add(view_appoint);
+            Controls.Add(Make_appoint);
+            Controls.Add(panel1);
+            Controls.Add(listView1);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "Patient";
+            Text = "Patient Profile";
+            Load += Patient_Load;
+            ((System.ComponentModel.ISupportInitialize)DataGrid).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+        private Label Patient_name;
+        private Button Make_appoint;
+        private Button view_appoint;
+        private Button Add_Medical_History;
+        private Button View_Medical_History;
+        private DataGridView DataGrid;
+        private Label Phone_label;
+        private Label phone_number;
+        private Label mail_label;
+        private Label Patient_email;
+        private Label label1;
+        private Panel panel1;
+        private ListView listView1;
+        private Button View_Prescriptions;
+        private Label label2;
+        private Label label3;
+        private Label Admin_ID;
+        private Label pres_sum;
+        private Label label6;
+        private Label app_sum;
+        private Label label4;
+        private PictureBox pictureBox1;
+    }
+}
